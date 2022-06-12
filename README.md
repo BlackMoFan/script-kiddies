@@ -5,6 +5,10 @@
 An Employee Management System (EMS) using PHP and MySQL
 
 ---
+https://github.com/BlackMoFan/script-kiddies/blob/main/assets/examples/example-light.png?raw=true
+https://github.com/BlackMoFan/script-kiddies/blob/main/assets/examples/example-dark.png?raw=true
+
+---
 ## Requirements
 
 Git and XAMPP
@@ -71,26 +75,32 @@ Locate where XAMPP/LAMPP is installed in your system and find the directory name
     
    HTTPS
     
-       $ git clone https://github.com/BlackMoFan/script-kiddies.git
+    $ git clone https://github.com/BlackMoFan/script-kiddies.git
    
    SSH
    
-       $ git clone git@github.com:BlackMoFan/script-kiddies.git
+    $ git clone git@github.com:BlackMoFan/script-kiddies.git
        
    Github CLI
        
-       $ gh repo clone BlackMoFan/script-kiddies
+    $ gh repo clone BlackMoFan/script-kiddies
        
 ## Open the system in your local machine
 
 1. **Dashboard.**
+
     Open your favorite browser and type in `localhost` in the url address bar to open the XAMPP dashboard.
 
 2. **Database.** 
+
     From the dashboard, go to phpMyAdmin by clicking at it on the uppermost right corner or by entering `http://localhost/phpmyadmin/` in your url address bar.
 
 3. **Import the initial database file**
+
     Import the database file *login_sample_db.sql* from the `~/assets/database/` directory of the cloned repo.
     
 4. **Open the system**
+
     You can now then access the system by entering `localhost/script-kiddies` in the url address bar.
+    
+You can also view the hosted website by visiting this link - http://dishevelled-title.000webhostapp.com/utilities/login.php
