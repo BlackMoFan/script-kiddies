@@ -17,11 +17,11 @@ An Employee Management System (EMS) using PHP and MySQL
     - Open the terminal (`command + space` button and type "Terminal" then press return/enter key)
     - Run the following command in terminal to install brew cask
     
-       ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
+           ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
        
     - Now install XAMPP with the following command
     
-       brew install --cask xampp
+           brew install --cask xampp
       
     - XAMPP is installed and ready to use!
 
