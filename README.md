@@ -19,12 +19,12 @@ Git and XAMPP
 
 ## How to Download
 ### Windows
-1. **Download**. Download [XAMPP for Windows](https://www.apachefriends.org/download.html) and follow the installation instructions on that page.
+1. Download [XAMPP for Windows](https://www.apachefriends.org/download.html) and follow the installation instructions on that page.
 
-2. Alternatively, you can follow the instruction [here](https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/).
+2. Alternatively, you can follow the instructions [here](https://www.ionos.com/digitalguide/server/tools/xampp-tutorial-create-your-own-local-test-server/).
 
 ### macOS
-1. **Download** [XAMPP for Mac OS](https://www.apachefriends.org/download.html) and follow the installation instructions on that page. Or you can install via terminal by:
+1. Download [XAMPP for Mac OS](https://www.apachefriends.org/download.html) and follow the installation instructions on that page. Or you can install via terminal by:
     
     - Open the terminal (`command + space` button and type "Terminal" then press return/enter key)
     - Run the following command in terminal to install brew cask
@@ -39,8 +39,8 @@ Git and XAMPP
 
 ### Linux
 #### Debian-based distros
-1. **Download.** Download the XAMPP package for linux [here](https://www.apachefriends.org/index.html). The Downloaded XAMPP package will be saved to your Downloads directory.
-2. **Make the installation package executable.** Open your terminal and enter the following:
+1. Download the XAMPP package for linux [here](https://www.apachefriends.org/index.html). The Downloaded XAMPP package will be saved to your Downloads directory.
+2. Make the installation package executable. Open your terminal and enter the following:
 
     Go to the Downloads directory
     
@@ -53,7 +53,7 @@ Git and XAMPP
        $ ls -l
     The –rwxr in the above output indicates the user can execute the package.
 
-3. **Launch the Setup Wizard.** Now launch the XAMPP installation wizard by using the following syntax in Terminal:
+3. Launch the Setup Wizard. Now launch the XAMPP installation wizard by using the following syntax in Terminal:
 
     Replace the package name accordingly.
 
