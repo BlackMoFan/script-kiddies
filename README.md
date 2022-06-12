@@ -2,7 +2,8 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Comic+Neue&color=7380ec&center=true&lines=Employee+Management+System+%7C+Script+Kiddies)](https://git.io/typing-svg)
 
 ---
-An Employee Management System (EMS) using PHP and MySQL
+An Employee Management System (EMS) using PHP and MySQL.
+
 You can view the hosted website by visiting this link - http://dishevelled-title.000webhostapp.com/utilities/login.php
 
 ---
