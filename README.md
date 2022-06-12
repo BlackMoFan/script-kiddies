@@ -6,6 +6,10 @@ An Employee Management System (EMS) using PHP and MySQL
 
 ---
 ## Requirements
+
+Git and XAMPP
+
+## How to Download
 ### Windows
 1. **Download**. Download [XAMPP for Windows](https://www.apachefriends.org/download.html) and follow the installation instructions on that page.
 
@@ -48,6 +52,45 @@ An Employee Management System (EMS) using PHP and MySQL
        $ sudo ./xampp-linux-7.4.1-1-installer.run
     Next, just follow along the installation and choose the defaults.   
 
+#### Arch-based distros
+1. Clone the [AUR package](https://aur.archlinux.org/packages/xampp) for XAMPP: 
 
-## Installation process
-1. 
+       $ git clone https://aur.archlinux.org/xampp.git
+2. Change directory to the cloned repository.
+
+       $ cd xampp
+
+3. Install the package
+
+       $ makepkg -sri
+
+4. XAMPP (LAMPP in the case of Linux) is installed and now ready to use!
+
+## Clone the repo
+Locate where XAMPP/LAMPP is installed in your system and find the directory named **htdocs**. This is where we will clone the repository to be able to open it in our localhost.
+    
+   HTTPS
+    
+       $ git clone https://github.com/BlackMoFan/script-kiddies.git
+   
+   SSH
+   
+       $ git clone git@github.com:BlackMoFan/script-kiddies.git
+       
+   Github CLI
+       
+       $ gh repo clone BlackMoFan/script-kiddies
+       
+## Open the system in your local machine
+
+1. **Dashboard.**
+    Open your favorite browser and type in `localhost` in the url address bar to open the XAMPP dashboard.
+
+2. **Database.** 
+    From the dashboard, go to phpMyAdmin by clicking at it on the uppermost right corner or by entering `http://localhost/phpmyadmin/` in your url address bar.
+
+3. **Import the initial database file**
+    Import the database file *login_sample_db.sql* from the `~/assets/database/` directory of the cloned repo.
+    
+4. **Open the system**
+    You can now then access the system by entering `localhost/script-kiddies` in the url address bar.
