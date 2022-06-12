@@ -5,10 +5,10 @@
 An Employee Management System (EMS) using PHP and MySQL
 
 ---
-https://github.com/BlackMoFan/script-kiddies/blob/main/assets/examples/example-light.png?raw=true
+![Alt text](https://github.com/BlackMoFan/script-kiddies/blob/main/assets/examples/example-light.png?raw=true)
 
 
-https://github.com/BlackMoFan/script-kiddies/blob/main/assets/examples/example-dark.png?raw=true
+![Alt text](https://github.com/BlackMoFan/script-kiddies/blob/main/assets/examples/example-dark.png?raw=true)
 
 ---
 ## Requirements
