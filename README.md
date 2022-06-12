@@ -3,6 +3,7 @@
 
 ---
 An Employee Management System (EMS) using PHP and MySQL
+You can view the hosted website by visiting this link - http://dishevelled-title.000webhostapp.com/utilities/login.php
 
 ---
 ![Alt text](https://github.com/BlackMoFan/script-kiddies/blob/main/assets/examples/example-light.png?raw=true)
@@ -104,5 +105,3 @@ Locate where XAMPP/LAMPP is installed in your system and find the directory name
 4. **Open the system**
 
     You can now then access the system by entering `localhost/script-kiddies` in the url address bar.
-    
-You can also view the hosted website by visiting this link - http://dishevelled-title.000webhostapp.com/utilities/login.php
