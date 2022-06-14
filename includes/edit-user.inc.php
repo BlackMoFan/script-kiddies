@@ -45,7 +45,7 @@
         // }
     }
 ?>
-            <h1>Employee Management System</h1>
+            <!-- <h1>Employee Management System</h1> -->
 
             <!-- <div class="date">
                 <input type="date">
@@ -55,7 +55,7 @@
             <section class="insights">
                 <div class="sales">
                     <span class="material-icons-sharp">
-                        hub
+                        manage_accounts
                     </span>
                     <div class="middle">
                         <div class="left">
@@ -241,24 +241,17 @@
                 </div>
                 <!-- TOTAL EMPLOYEES -->
                 <!-------------------- END OF TOTAL SALES ------------------------->
-                <div class="expenses">
+                <!-- <div class="expenses">
                     <span class="material-icons-sharp">
                         code
                     </span>
                     <div class="middle">
                         <div class="left">
-                            <!-- <h3>Script Kiddies</h3> -->
                             <h1>The team</h1>
                             <p>Product Manager: Jazmin Cortez</p>
                             <p>Developer: Rod Moreno</p>
                         </div>
                         <div class="progress">
-                            <!-- <svg>
-                                <circle cx='38' cy='38' r='36'></circle>
-                            </svg> -->
-                            <!-- <div class="number">
-                                <p>81%</p>
-                            </div> -->
                             <span class="material-icons-sharp">
                                 html
                             </span>
@@ -276,7 +269,7 @@
                     <small class="text-muted">
                         blackmofan &copy 2022. All Rights Reserved.
                     </small>
-                </div>
+                </div> -->
                 <!-- TOTAL EXPENSES -->
                 <!-------------------- END OF EXPENSES ------------------------->
             </section>
