@@ -48,7 +48,7 @@
             <section class="insights">
                 <div class="sales">
                     <span class="material-icons-sharp">
-                        hub
+                        login
                     </span>
                     <div class="middle">
                         <div class="left">
@@ -118,7 +118,7 @@
                 <!-------------------- END OF TOTAL SALES ------------------------->
                 <div class="expenses">
                     <span class="material-icons-sharp">
-                        code
+                        groups_3
                     </span>
                     <div class="middle">
                         <div class="left">
@@ -137,7 +137,7 @@
                             <!-- <div class="number">
                                 <p>81%</p>
                             </div> -->
-                            <span class="material-icons-sharp">
+                            <!-- <span class="material-icons-sharp">
                                 html
                             </span>
                             <span class="material-icons-sharp">
@@ -148,9 +148,26 @@
                             </span>
                             <span class="material-icons-sharp">
                                 php
-                            </span>
+                            </span> -->
                         </div>
                     </div>
+                    <div id="login-info">
+                        <!-- <span class="material-symbols-sharp">rocket_launch</span> -->
+                        <strong>Script Kiddies Employee Management
+                        System (EMS)</strong> is an information management
+                        software that stores and manages personal and
+                        work-related information of employees of a
+                        company or an organization. <br />
+                        This employee management system is intended for the
+                        utilization of employees, staffs and managers of a
+                        company. It gives better employee database
+                        management, employee payroll, and employee
+                        analytics.
+                    </div>
+                    <a id="manual-btn" href="../assets/examples/SCRIPTKIDDIES-USER-MANUAL.pdf">
+                        <span class="material-symbols-sharp">library_books</span>
+                        Manual
+                    <a>
                     <small class="text-muted">
                         blackmofan &copy 2022. All Rights Reserved.
                     </small>
