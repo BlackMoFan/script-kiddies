@@ -44,7 +44,7 @@
         // }
     }
 ?>
-            <h1>Chat room</h1>
+            <!-- <h1>Chat room</h1> -->
 
             <!-- <div class="date">
                 <input type="date">
@@ -54,7 +54,7 @@
             <section class="insights">
                 <div class="sales">
                     <span class="material-icons-sharp">
-                        hub
+                        forum
                     </span>
                     <div class="middle">
                         <!-- <div class="left"> -->
@@ -62,7 +62,7 @@
                             <h1>An Employee Management System</h1> -->
                             <div class="chatBox">
                                 <div class="chatBoxHeader">
-                                    <span class="header-icon material-symbols-sharp">chat_bubble</span>
+                                    <!-- <span class="header-icon material-symbols-sharp">chat_bubble</span> -->
                                     Script Kiddies
                                 </div>
                                 <div class="messageBox">
@@ -78,7 +78,7 @@
                                                 <div class="msg-bubble">
                                                     <div class="msg-info">
                                                         <div class="msg-info-name"><?= $employeeRecord["full_name"]; ?></div>
-                                                        <div class="msg-info-time"><?= date('h:i', strtotime($chat["date"])); ?></div>
+                                                        <div class="msg-info-time"><?= date('M d, h:i A', strtotime($chat["date"])); ?></div>
                                                     </div>
                                                     <div class="msg-text">
                                                     <!-- Hi, welcome to SimpleChat! Go ahead and send me a message. 😄 -->
@@ -98,7 +98,7 @@
                                                                 <!-- Admin -->
                                                             </div>
                                                             <div class="msg-info-time">
-                                                                <?= date('h:i', strtotime($chat["date"])); ?>
+                                                                <?= date('M d, h:i A', strtotime($chat["date"])); ?>
                                                                 <!-- 12:46 -->
                                                             </div>
                                                         </div>
@@ -162,9 +162,9 @@
                 </div>
                 <!-- TOTAL EMPLOYEES -->
                 <!-------------------- END OF TOTAL SALES ------------------------->
-                <div class="expenses">
+                <!-- <div class="expenses">
                     <span class="material-icons-sharp">
-                        code
+                        groups_3
                     </span>
                     <div class="middle">
                         <div class="left">
@@ -177,12 +177,6 @@
                             <p><strong>Developers:</strong>  Danny Damgo & Rod Moreno</p>
                         </div>
                         <div class="progress">
-                            <!-- <svg>
-                                <circle cx='38' cy='38' r='36'></circle>
-                            </svg> -->
-                            <!-- <div class="number">
-                                <p>81%</p>
-                            </div> -->
                             <span class="material-icons-sharp">
                                 html
                             </span>
@@ -200,7 +194,7 @@
                     <small class="text-muted">
                         blackmofan &copy 2022. All Rights Reserved.
                     </small>
-                </div>
+                </div> -->
                 <!-- TOTAL EXPENSES -->
                 <!-------------------- END OF EXPENSES ------------------------->
             </section>
