@@ -44,7 +44,7 @@
         // }
     }
 ?>
-            <h1>About</h1>
+            <!-- <h1>About</h1> -->
 
             <!-- <div class="date">
                 <input type="date">
@@ -58,8 +58,21 @@
                     </span>
                     <div class="middle">
                         <div class="left">
-                            <h3>Script Kiddies</h3>
+                            <!-- <h3>Script Kiddies</h3> -->
                             <h1>An Employee Management System</h1>
+                            <div id="about-info">
+                                <span class="material-symbols-sharp">rocket_launch</span>
+                                <strong>Script Kiddies Employee Management
+                                System (EMS)</strong> is an information management
+                                software that stores and manages personal and
+                                work-related information of employees of a
+                                company or an organization. <br />
+                                This employee management system is intended for the
+                                utilization of employees, staffs and managers of a
+                                company. It gives better employee database
+                                management, employee payroll, and employee
+                                analytics.
+                            </div>
                         </div>
                         <!-- <div class="progress">
                             <svg>
@@ -82,7 +95,7 @@
                     </span>
                     <div class="middle">
                         <div class="left">
-                            <h3>Script Kiddies</h3>
+                            <!-- <h3>Script Kiddies</h3> -->
                             <h1>The team</h1>
                             <p><strong>Product Manager:</strong>  Jazmin Cortez</p>
                             <p><strong>Team Lead:</strong>  Hannah Santocildes</p>
@@ -97,7 +110,7 @@
                             <!-- <div class="number">
                                 <p>81%</p>
                             </div> -->
-                            <span class="material-icons-sharp">
+                            <!-- <span class="material-icons-sharp">
                                 html
                             </span>
                             <span class="material-icons-sharp">
@@ -108,9 +121,13 @@
                             </span>
                             <span class="material-icons-sharp">
                                 php
-                            </span>
+                            </span> -->
                         </div>
                     </div>
+                    <a id="manual-btn" href="../assets/examples/SCRIPTKIDDIES-USER-MANUAL.pdf">
+                        <span class="material-symbols-sharp">library_books</span>
+                        Manual
+                    <a>
                     <small class="text-muted">
                         blackmofan &copy 2022. All Rights Reserved.
                     </small>
