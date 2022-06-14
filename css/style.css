@@ -846,6 +846,8 @@ main div#returnedResultDelete {
     margin: 10px auto;
     padding: 0.8rem;
     width: fit-content;
+    cursor: pointer;
+    color: var(--color-white);
 }
 
 .clickTo {
@@ -1046,6 +1048,26 @@ input:focus::placeholder {
     background: #bdbdbd;
 }
 
+#about-info {
+    margin: 20px auto;
+    padding: 20px;
+    /* text-align: justify; */
+    border: 5px solid var(--color-primary);
+    border-radius: 10px;
+}
+
+#login-info {
+    margin: 20px auto;
+    padding: 20px;
+    /* text-align: justify; */
+    border: 5px solid var(--color-danger);
+    border-radius: 10px;
+}
+
+#about-info span {
+    font-size: 18px;
+}
+
 .msg {
     display: flex;
     align-items: flex-end;
@@ -1159,4 +1181,24 @@ input:focus::placeholder {
 .chat-send-button:hover {
     background: var(--color-dark);
     color: var(--color-white);
+}
+
+#manual-btn {
+    width: fit-content;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid var(--color-danger);
+    border-radius: 8px;
+    background: var(--color-danger);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--color-white);
+}
+
+#manual-btn span {
+    /* color: var(--color-white); */
+    background-color: transparent;
+    font-size: 18px;
 }
